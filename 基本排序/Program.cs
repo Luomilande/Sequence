@@ -86,7 +86,7 @@ namespace 基本排序
         /// <summary>
         /// 插入排序（Insertion Sort）
         /// <br>时间复杂度：O(n2)</br>
-        /// <br>思想：n-1为排序号的，将n插入到n-1中。</br>
+        /// <br>思想：n-1为排序好的，将n插入到n-1中。</br>
         /// </summary>
         /// <param name="arr">数组</param>
         public static void InsertionSort(int[] arr)
